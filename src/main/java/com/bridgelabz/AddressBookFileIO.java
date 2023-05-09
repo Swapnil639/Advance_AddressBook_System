@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class AddressBookFileIO {
     public List<Contact> readData() {
         List<Contact> contactList = new ArrayList<>();
         try {
-            Files.lines(new File(ADDRESS_BOOK_FILE_NAME).toPath()).map(line -> line.trim()).forEach(System.out::println);
+            Files.lines(Path.of(ADDRESS_BOOK_FILE_NAME)).forEach(System.out::println);
         } catch (IOException e) {
             e.printStackTrace();
         }
