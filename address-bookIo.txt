@@ -1,0 +1,2 @@
+Contact{firstName='Swapnil', lastName='Patil', address='Panvel', city='Panvel', state='Mh', zip=410206, phoneNumber=9967891679, email='swapnil@gmail.com'}
+Contact{firstName='Shubham', lastName='Ghule', address='Panvel', city='Panvel', state='Mh', zip=410206, phoneNumber=9988776655, email='shubham@gmail.com'}
